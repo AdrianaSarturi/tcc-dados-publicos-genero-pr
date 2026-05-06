@@ -1,0 +1,28 @@
+# =============================================================================
+# Dependências do Crawler Oficial — TCC Dados Públicos Gênero PR
+# UTFPR — Adriana Sarturi
+# =============================================================================
+# Para instalar: pip install -r requirements.txt
+# Recomendado: criar um ambiente virtual antes (python -m venv venv)
+# Ambiente testado com: Python 3.14
+# =============================================================================
+
+
+# --- Coleta de Dados (Camada 1: requests + parsing) ---
+# requests: realiza as requisições HTTP para acessar as páginas das prefeituras
+requests>=2.32.3
+
+# beautifulsoup4: faz o parsing do HTML retornado, extraindo links e textos
+# Parser utilizado: html.parser (nativo do Python — sem dependência de compilador)
+beautifulsoup4>=4.12.3
+
+# selenium: framework de automação de navegador — usado como fallback (Nível 2)
+# quando requests é bloqueado pelo servidor da prefeitura
+selenium>=4.21.0
+
+# --- Análise e Persistência de Dados ---
+# pandas: leitura, manipulação e exportação das planilhas de inventário
+pandas>=2.3.0
+
+# openpyxl: engine de leitura/escrita de arquivos .xlsx (exigido pelo pandas)
+openpyxl>=3.1.3
