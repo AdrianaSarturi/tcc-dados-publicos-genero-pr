@@ -25,7 +25,7 @@ Este trabalho tem como objetivo analisar a disponibilidade de dados públicos em
 
 ## 📄 Proposta
 
-A proposta do TCC pode ser acessada em:  
+A proposta desenvolvia no TCC 01 pode ser acessada em:  
 [Proposta do projeto](docs/proposta.pdf)
 
 ## 📊 Status
