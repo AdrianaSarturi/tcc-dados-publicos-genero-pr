@@ -406,8 +406,10 @@ def fazer_request(url: str, stream: bool = False) -> requests.Response | None:
             except Exception:
                 pass
 
-        except requests.exceptions.RequestException:
+        except (requests.exceptions.RequestException, UnicodeDecodeError):
             # Timeout, erro de conexão, etc.
+            # UnicodeDecodeError ocorre quando o servidor retorna um header
+            # Location com encoding inválido (ex: Latin-1 em vez de UTF-8).
             pass
 
         # Backoff exponencial: 2s, 4s, 8s...
