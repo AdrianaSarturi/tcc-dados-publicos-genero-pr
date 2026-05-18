@@ -135,5 +135,4 @@ PALAVRAS_GENERO = [
     "feminino", "masculino", "female", "male",
     "mulher", "mulheres", "woman", "women",
     "homem", "homens", "man", "men", 
-    "menina", "meninas", "menino", "meninos",
 ]
