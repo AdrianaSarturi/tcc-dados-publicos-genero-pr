@@ -20,6 +20,7 @@ DIR_RAIZ = Path(__file__).parent.parent
 
 # Pasta onde os resultados de cada cidade serão salvos (criada em runtime)
 DIR_RESULTADOS = DIR_RAIZ / "resultados"
+SUFIXO_PASTA   = "_oficial"  # pastas com dados finalizados do TCC
 
 
 # =============================================================================
