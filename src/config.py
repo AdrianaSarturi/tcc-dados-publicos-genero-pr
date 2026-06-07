@@ -123,6 +123,18 @@ USER_AGENT = (
 
 
 # =============================================================================
+# UNRAR_TOOL — Caminho para o executável UnRAR (necessário para leitura de .rar)
+# =============================================================================
+#
+# O módulo rarfile exige o binário UnRAR para descompactar arquivos .rar.
+# Ajuste o caminho conforme o ambiente:
+#   Windows (WinRAR padrão) : r"C:\Program Files\WinRAR\UnRAR.exe"
+#   Linux/macOS             : "/usr/bin/unrar"  (após: sudo apt install unrar)
+#
+UNRAR_TOOL = r"C:\Program Files\WinRAR\UnRAR.exe"
+
+
+# =============================================================================
 # PALAVRAS_GENERO — Termos usados pelo Analisador (src/analisador.py)
 # =============================================================================
 
