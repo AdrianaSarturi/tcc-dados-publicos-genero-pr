@@ -1,6 +1,6 @@
 # Mapeamento de Dados Públicos no Paraná: Perspectivas de Gênero
 
-Projeto de Trabalho de Conclusão de Curso (TCC) em Engenharia de Software - UTFPR.
+Projeto de Trabalho de Conclusão de Curso em Engenharia de Software - UTFPR.
 
 ## 📌 Sobre o projeto
 
@@ -9,10 +9,10 @@ Este trabalho tem como objetivo analisar a disponibilidade de dados públicos em
 ## 🎯 Objetivos
 
 - Mapear portais de dados públicos municipais do Paraná
-- Identificar arquivos de dados estruturados disponíveis (planilhas, CSVs)
+- Identificar e baixar arquivos de dados disponíveis nos portais
 - Verificar a presença de dados desagregados por gênero via mineração de texto
-- Analisar a qualidade e acessibilidade dos dados governamentais
-- Documentar lacunas de representatividade de gênero no planejamento urbano
+- Realizar curadoria qualitativa para classificar os arquivos detectados
+- Documentar barreiras técnicas e lacunas na disponibilização de dados abertos
 
 ## 💻 Tecnologias
 
@@ -28,9 +28,10 @@ Este trabalho tem como objetivo analisar a disponibilidade de dados públicos em
 A proposta desenvolvida no TCC 01 pode ser acessada em:  
 [Proposta do projeto](docs/TCC%2001_Proposta.pdf)
 
-## 📊 Status
+## 🗄️ Base de Dados Bruta
 
-Em desenvolvimento
+Os arquivos coletados durante a pesquisa (downloads e extraídos) estão disponíveis no Google Drive:  
+[Acessar base de dados bruta](https://drive.google.com/drive/folders/1JzrvB0snuPFuVCkFLBCbddMnNyjN3JhL?usp=drive_link)
 
 ## 🎓 Instituição
 
