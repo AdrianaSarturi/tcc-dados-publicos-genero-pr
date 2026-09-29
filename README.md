@@ -77,10 +77,17 @@ Os resultados da análise estão organizados por município na pasta `resultados
 
 Cada diretório contém os inventários de arquivos coletados e os relatórios de classificação por recorte de gênero.
 
-## 📄 Proposta
+## 📄 Documentação
+
+### Proposta — TCC 1
 
 A proposta desenvolvida no TCC 01 pode ser acessada em:  
-[Proposta do projeto](docs/TCC%2001_Proposta.pdf)
+[Proposta do projeto](docs/TCC_01_Proposta.pdf)
+
+### Trabalho final — TCC 2
+
+O trabalho final desenvolvido no TCC 2 pode ser acessado em:  
+[Trabalho final](docs/TCC_02_TrabalhoFinal.pdf)
 
 ## 🗄️ Base de Dados Bruta
 
